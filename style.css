@@ -1,0 +1,22 @@
+.heading {
+    width: 100%;
+}
+
+.heading h3 {
+    display: inline;
+    float: center;
+}
+
+.heading button {
+    float: right;
+    border: 1px white;
+}
+
+#start {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+body {
+    background-size: cover;
+}
