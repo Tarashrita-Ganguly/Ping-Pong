@@ -17,6 +17,28 @@
     font-weight: bolder;
 }
 
+#restart {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
 body {
     background-size: cover;
+}
+
+.copy_right_footer {
+    background-color: papayawhip;
+    position: fixed;
+    bottom: 0;
+    line-height: 3;
+    text-align: center;
+    color: navy;
+    margin: 0;
+    width: 100%;
+}
+
+h2 {
+    display: inline-block;
+    color: navy;
+    font-size: 20px;
 }

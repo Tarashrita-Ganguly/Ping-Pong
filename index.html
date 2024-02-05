@@ -21,11 +21,36 @@
           </div>
           <br><br>
           <button  class="btn btn-success" onclick="startGame()" id="start">start game</button>
+          <button class="btn btn-danger" onclick="Restart()" id="restart" >Restart</button>
           <br><br>
-          <h3 class="btn btn-danger" id="status"></h3>
+          <h3 class="btn btn-warning" id="status"></h3>
           <br><br>
           <div id="canvas"></div>
         </center>
+
+        <div class="copy_right_footer ">
+          developed by-Tara
+        </div>
+
         <script src="main.js"></script>
+        
+        <div id="myModal" class="modal fade">
+          <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <button  data-dismiss="modal" class="close">&times;</button>
+     
+               <h4>Instructions</h4>
+                <br><br>
+               <h2 >1 | Use your mouse to control to paddle</h2> 
+               <h2 >2 | The game will count your score in the yellow box</h2>  
+               <br><br>
+               <h2 >3 | Click the restart button when you lose to start a new game</h2>
+               <h2 >4 | Good luck!</h2> 
+             </div>
+           </div>
+          </div>
+          </div>        
+
     </body>
 </html>
