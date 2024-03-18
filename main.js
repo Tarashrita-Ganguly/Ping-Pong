@@ -1,3 +1,4 @@
+gameStatus="";
 rightWristX = "";
 rightWristY = "";
 rightWristSCORE = "";
@@ -47,3 +48,8 @@ function setup(){
 		circle(rightWristX, rightWristY,"40px");
 	  }
 	}
+
+	function startGame() {
+		gameStatus="start";
+		document.getElementById("status").innerHTML="Game is loading";
+	  }
